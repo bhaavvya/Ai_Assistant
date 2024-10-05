@@ -28,7 +28,7 @@ function App() {
     setError(null);
 
     try {
-      const response = await fetch('https://ai-assistant-8c8dgrqjl-bhavyas-projects-609c9ecd.vercel.app/search', {
+      const response = await fetch('https://ai-assistant-nap71f31q-bhavyas-projects-609c9ecd.vercel.app/search', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
