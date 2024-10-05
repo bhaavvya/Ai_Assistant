@@ -9,7 +9,7 @@ import groq
 
 
 app = Flask(__name__)
-CORS(app)  # Allows cross-origin requests from your React app
+CORS(app, resources={r"/search": {"origins": "https://ai-assistant-8c8dgrqjl-bhavyas-projects-609c9ecd.vercel.app"}})
 
 def load_dotenv():
   """
